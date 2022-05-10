@@ -1,0 +1,273 @@
+body {
+  background-color: #F9FAFC !important;
+  min-height: 100vh !important;
+  padding: 0 !important;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 !important;
+  color: #000000;
+}
+
+.btn-primary {
+  background-color: #F64E60 !important;
+  color: #FFFFFF;
+  border: 0 !important;
+  outline: none !important;
+  box-shadow: unset !important;
+}
+
+.login-box {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  width: 100%;
+  padding: 50px 15px;
+  z-index: 2;
+}
+
+.login-box .title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.form-group .label-form {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+input.form-control {
+  padding: 10px 10px;
+  font-size: 14px;
+  outline: none !important;
+  border: 1px #E4E6EF solid !important;
+  box-shadow: unset !important;
+}
+
+input.form-control:focus {
+  border: 1px #F64E60 solid !important;
+}
+
+input.form-control::placeholder {
+  color: #B5B5C3;
+  opacity: 1;
+  /* Firefox */
+}
+
+input.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #B5B5C3;
+}
+
+input.form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #B5B5C3;
+}
+
+.hero-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 350px;
+}
+
+.hero-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+}
+
+@media(max-width:991px) {
+  .hero-left {
+    display: none;
+  }
+
+  .hero-right {
+    display: none;
+  }
+}
+
+.navbar-custom {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.04);
+  padding: 0 !important;
+  padding-left: 25px !important;
+
+}
+
+.nav-logout {
+  background-color: #EB5757;
+  color: #FFFFFF;
+  height: 70px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 90px;
+  cursor: pointer;
+}
+
+.nav-user {
+  height: 70px;
+  align-items: center;
+  /* text-align: right; */
+  padding-top: 25px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.navbar-custom .navbar-brand img {
+  width: 120px;
+}
+
+@media(max-width:476px) {
+  .navbar-custom .navbar-brand img {
+    width: 100px;
+  }
+
+  .navbar-custom {
+    padding-left: 10px !important;
+  }
+  .nav-user {
+
+    width: 90px;
+  }
+}
+
+.page-wrapper {
+  padding-top: 50px;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 30px rgba(56, 71, 109, 0.1);
+  border-radius: 5px;
+  border: 0 !important;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  border: 1px #F2F2F2 solid;
+  outline: none !important;
+  box-shadow: unset !important;
+}
+
+.dataTables_wrapper .dataTables_length {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+  border: 0 !important;
+  color: rgba(0, 0, 0, 0.5);
+  outline: none !important;
+  box-shadow: unset !important;
+}
+
+.table-custom thead tr th {
+  border-bottom: 1px #dee2e6 solid !important;
+  border-top: 1px #dee2e6 solid !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  padding: 8px 10px !important
+}
+
+.table-custom tbody tr td {
+  border-bottom: 1px #dee2e6 solid !important;
+  font-size: 13px !important;
+}
+
+.dataTables_info {
+  font-size: 14px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  border: 0 !important;
+  padding: 5px 15;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous,
+.dataTables_wrapper .dataTables_paginate .paginate_button.next {
+  background: #F7F9FB !important;
+  color: #B5B5C3;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: #EB5757 !important;
+  color: #fff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  color: #fff !important;
+  border: 0 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous.disabled,
+.dataTables_wrapper .dataTables_paginate .paginate_button.next.disabled {
+  background: #F7F9FB !important;
+  color: #B5B5C3;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background: #EB5757 !important;
+  color: #fff !important;
+}
+
+.table-custom {
+  margin-bottom: 15px !important;
+  border-bottom: 0 !important;
+}
+
+.bg-info {
+  background-color: #2F80ED !important;
+}
+
+.bg-warning {
+  background-color: #F2994A !important;
+}
+
+input.form-control.error {
+  border: 1px #dc3545 solid !important;
+}
+
+.icon-action {
+  color: #B5B5C3 !important;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.history-box {
+  background: #F2F2F2;
+  width: 100%;
+  padding: 30px 15px;
+  border-radius: 5px;
+}
+
+.history-box .title {
+  color: #4F4F4F;
+  font-size: 14px;
+}
+
+.history-box .desc {
+  font-size: 20px;
+  font-weight: 600;
+}
